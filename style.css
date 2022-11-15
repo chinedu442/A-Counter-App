@@ -1,0 +1,46 @@
+body{
+ font-family:  BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ text-align: center;
+ background-image: url("station.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ color: white;
+ font-size: 2em;
+ /*display: flex;
+ flex-direction: column;*/
+}
+
+#main-div{
+  max-width: 70%;
+  margin: auto;
+}
+
+button{
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 0.5em;
+  text-align: center;
+  width: 25%;
+}
+
+#add-btn{
+  padding: 1em;
+  background-color: rgb(150, 30, 30);
+}
+
+#minus-btn{
+  padding: 1em;
+  background-color: goldenrod;
+}
+
+#save-btn{
+  padding: 1em;
+  background-color: darkgreen;
+}
+
+#save-el{
+  color: black;
+  font-weight: bold;
+}
